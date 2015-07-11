@@ -83,6 +83,19 @@ Please use the issue-tracker at github
 https://github.com/frej/fast-export to report bugs and submit
 patches.
 
+Tracking Original Repositories
+==============================
+
+In the project base directory, you may want to run these commands to 
+add the original github and repo.or.cz git repositories where the
+fundamental development for this tool happens:
+
+```
+git remote add repo.or.cz-original git://repo.or.cz/fast-export.git
+git remote add frej-original git@github.com:frej/fast-export.git
+git pull --all
+```
+
 Footnotes
 =========
 
