@@ -47,8 +47,8 @@ As mercurial appears to be much less picky about the syntax of the
 author information than git, an author mapping file can be given to
 hg-fast-export to fix up malformed author strings. The file is
 specified using the -A option. The file should contain lines of the
-form "FromAuthor=ToAuthor". The example authors.map below will
-translate "User \<garbage<user@example.com>" to "User \<user@example.com>".
+form "FromAuthor=ToAuthor". The example `authors.map` below will
+translate "User \<garbage\<user@example.com>" to "User \<user@example.com>".
 
 ```
 -- Start of authors.map --
